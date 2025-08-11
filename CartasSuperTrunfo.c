@@ -52,13 +52,13 @@ int main() {
     printf("Código da Carta: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %lu Pessoas\n", populacao1); //Alterado para o especificador de formato %lu (unsigned long int), para impressão correta de valores.
-    printf("Área em km²: %.2fkm²\n", area1); //%.2f = Indificação de 2 casas decimais.
-    printf("PIB: R$%.2f\n", pib1); //%.2f = Indificação de 2 casas decimais.
+    printf("Área em km²: %.2fkm²\n", area1); //%.2f = Identificação de 2 casas decimais.
+    printf("PIB: R$%.2f\n", pib1); //%.2f = Identificação de 2 casas decimais.
     printf("Pontos Turisticos na Cidade: %d\n", pontosTuristicos1);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional1); //%.2f = Indificação de 2 casas decimais.
-    printf("PIB per Capita: R$%.2f\n", pibperCapita1); //%.2f = Indificação de 2 casas decimais.
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional1); //%.2f = Identificação de 2 casas decimais.
+    printf("PIB per Capita: R$%.2f\n", pibperCapita1); //%.2f = Identificação de 2 casas decimais.
     //printf("Resultado Inverso: %.4f\n", valorInvertido1); //Valor Inverso não é necessário, pois o mesmo já foi adicionado ao Super Poder, comando utilizado apenas para teste do calculo inverso.
-    printf("Super Poder: %.2f Pontos\n", superPoder1); //%.2f = Indificação de 2 casas decimais.
+    printf("Super Poder: %.2f Pontos\n", superPoder1); //%.2f = Identificação de 2 casas decimais.
     
 
     printf("\n\n");
@@ -98,12 +98,12 @@ int main() {
     printf("Código da Carta: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %lu Pessoas\n", populacao2); //Alterado para o especificador de formato %lu (unsigned long int), para impressão correta de valores.
-    printf("Área em km²: %.2fkm²\n", area2); //%.2f = Indificação de 2 casas decimais.
-    printf("PIB: R$%.2f\n", pib2); //%.2f = Indificação de 2 casas decimais.
+    printf("Área em km²: %.2fkm²\n", area2); //%.2f = Identificação de 2 casas decimais.
+    printf("PIB: R$%.2f\n", pib2); //%.2f = Identificação de 2 casas decimais.
     printf("Pontos Turisticos na Cidade: %d\n", pontosTuristicos2);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional2); //%.2f = Indificação de 2 casas decimais.
-    printf("PIB per Capita: R$%.2f\n", pibperCapita2); //%.2f = Indificação de 2 casas decimais.
-    printf("Super Poder: %.2f Pontos\n", superPoder2); //%.2f = Indificação de 2 casas decimais.
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacional2); //%.2f = Identificação de 2 casas decimais.
+    printf("PIB per Capita: R$%.2f\n", pibperCapita2); //%.2f = Identificação de 2 casas decimais.
+    printf("Super Poder: %.2f Pontos\n", superPoder2); //%.2f = Identificação de 2 casas decimais.
 
     printf("\n*** Comparação das Cartas ***\n"); //Utilização de Operadores Relacionais para comparação das cartas.
 
